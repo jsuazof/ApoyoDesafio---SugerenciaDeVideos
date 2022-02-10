@@ -41,11 +41,9 @@ class Reproductor extends Multimedia {
   }
 }
 
-
 const videoMusica = document.querySelector("#musica");
 const videoPelicula = document.querySelector("#peliculas");
 const videoSerie = document.querySelector("#series");
-
 
   const video1 = new Reproductor(
     "https://www.youtube.com/embed/BtiiM3jeb_c",
@@ -53,19 +51,18 @@ const videoSerie = document.querySelector("#series");
   );
   video1.setInicio(30);
 
-
-
   const video2 = new Reproductor(
     "https://www.youtube.com/embed/Z6LXG2TJPKg",
     videoPelicula
   );
   video2.playMultimedia();
 
-
-
   const video3 = new Reproductor(
     "https://www.youtube.com/embed/LuXd7QRLvvc",
     videoSerie
   );
   video3.playMultimedia();
+
+
+
 
