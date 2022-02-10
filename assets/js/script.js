@@ -34,10 +34,10 @@ class Reproductor extends Multimedia {
     this._id = id;
   }
   playMultimedia() {
-    IIFEDOM.publicAttribute(this.getUrl(), this._id);
+    IIFEDOM.publicAttribute(this.url, this._id);
   }
   setInicio(tiempo) {
-    IIFEDOM.publicAttribute(`${this.getUrl()}?start=${tiempo}`, this._id);
+    IIFEDOM.publicAttribute(`${this.url}?start=${tiempo}`, this._id);
   }
 }
 
