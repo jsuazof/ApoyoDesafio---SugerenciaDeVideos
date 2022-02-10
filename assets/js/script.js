@@ -46,7 +46,7 @@ const videoPelicula = document.querySelector("#peliculas");
 const videoSerie = document.querySelector("#series");
 
   const video1 = new Reproductor(
-    "https://www.youtube.com/embed/BtiiM3jeb_c",
+    "https://www.youtube.com/embed/s9QZ_ssJ1i0",
     videoMusica
   );
   video1.setInicio(30);
